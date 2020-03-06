@@ -1,4 +1,4 @@
-import 'package:deli_meals/category_meals_screen.dart';
+import 'file:///D:/FlutterTraining/deli_meals/lib/screens/category_meals_screen.dart';
 import 'package:flutter/material.dart';
 
 class CategoryItem extends StatelessWidget {
