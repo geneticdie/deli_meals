@@ -1,5 +1,6 @@
 import 'package:deli_meals/screens/categories_screen.dart';
 import 'package:deli_meals/screens/favorites_screen.dart';
+import 'package:deli_meals/widgets/main_drawer.dart';
 import 'package:flutter/material.dart';
 
 class TabsScreen extends StatefulWidget {
@@ -28,6 +29,7 @@ class _TabsScreenState extends State<TabsScreen> {
             ],
           ),
         ),
+        drawer: MainDrawer(),
         body: TabBarView(
           children: <Widget>[
             CategoriesScreen(),
